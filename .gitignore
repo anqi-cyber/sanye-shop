@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+server/data/db.json
+server/data/*.tmp
+.env
+.env.local
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.chrome-profile/
+coverage/

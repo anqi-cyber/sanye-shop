@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title">
+  <title id="title">窗台绿意镜面草</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5ebda"/>
+      <stop offset="1" stop-color="#bfd1b8"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cf8a64"/>
+      <stop offset="1" stop-color="#a96145"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <path d="M110 0h290v600H110Z" fill="#f8f5e9" opacity=".5"/>
+  <path d="M400 0v600M110 300h290" stroke="#f8f5e9" stroke-width="14" opacity=".4"/>
+  <path d="M0 600h800v200H0Z" fill="#d7c3a7" opacity=".55"/>
+  <rect y="690" width="800" height="110" fill="#9eae91"/>
+  <ellipse cx="400" cy="697" rx="230" ry="26" fill="#5f7257" opacity=".18"/>
+
+  <g stroke="#3f5c42" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M386 550c-2-90-12-156-34-226"/>
+    <path d="M398 552c8-96 30-170 64-236"/>
+    <path d="M392 548c-2-64 2-120 20-190"/>
+    <path d="M380 550c-30-54-62-96-104-126"/>
+    <path d="M404 548c34-50 70-82 116-104"/>
+  </g>
+
+  <g fill="#5d7b55" stroke="#3f5c42" stroke-width="2">
+    <g transform="translate(340 300) rotate(-20)">
+      <ellipse rx="52" ry="34"/>
+      <path d="M-42 0h84" stroke="#dbe3cc" stroke-width="3" opacity=".55"/>
+    </g>
+    <g transform="translate(470 300) rotate(18)">
+      <ellipse rx="48" ry="31"/>
+      <path d="M-38 0h76" stroke="#dbe3cc" stroke-width="3" opacity=".55"/>
+    </g>
+    <g transform="translate(300 382) rotate(-38)">
+      <ellipse rx="50" ry="33"/>
+      <path d="M-40 0h80" stroke="#dbe3cc" stroke-width="3" opacity=".55"/>
+    </g>
+    <g transform="translate(514 390) rotate(32)">
+      <ellipse rx="46" ry="30"/>
+      <path d="M-36 0h72" stroke="#dbe3cc" stroke-width="3" opacity=".55"/>
+    </g>
+    <g transform="translate(400 228) rotate(-4)">
+      <ellipse rx="56" ry="36" fill="#6e8b60"/>
+      <path d="M-45 0h90" stroke="#dbe3cc" stroke-width="3" opacity=".5"/>
+    </g>
+    <g transform="translate(264 300) rotate(-55)">
+      <ellipse rx="40" ry="26" fill="#758f64"/>
+    </g>
+    <g transform="translate(552 470) rotate(48)">
+      <ellipse rx="38" ry="25" fill="#758f64"/>
+    </g>
+  </g>
+
+  <path d="M314 552h172l-22 136H336Z" fill="url(#pot)" stroke="#78452f" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="300" y="536" width="200" height="42" rx="10" fill="#bd7856" stroke="#78452f" stroke-width="4"/>
+  <ellipse cx="400" cy="536" rx="100" ry="17" fill="#7d5138" opacity=".55"/>
+  <path d="M348 580c-2 34 0 66 6 94" stroke="#f0c5a8" stroke-width="7" opacity=".35" fill="none" stroke-linecap="round"/>
+
+  <g fill="#f4e9d4" opacity=".75">
+    <circle cx="180" cy="170" r="4"/>
+    <circle cx="226" cy="132" r="2.5"/>
+    <circle cx="640" cy="220" r="3"/>
+    <circle cx="590" cy="120" r="5"/>
+  </g>
+
+  <text x="56" y="742" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="4" fill="#3f5c42" opacity=".65">NO. 06 / GREEN</text>
+  <rect width="800" height="800" filter="url(#grain)" opacity=".12" style="mix-blend-mode:multiply"/>
+</svg>

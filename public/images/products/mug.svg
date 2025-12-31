@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title">
+  <title id="title">山雾窑变马克杯</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9eadc"/>
+      <stop offset="1" stop-color="#c4d0bd"/>
+    </linearGradient>
+    <linearGradient id="glaze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9db2a0"/>
+      <stop offset="1" stop-color="#6f8c79"/>
+    </linearGradient>
+    <clipPath id="mug-clip">
+      <path d="M270 320h250v230a80 80 0 0 1-80 80h-90a80 80 0 0 1-80-80Z"/>
+    </clipPath>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="630" cy="150" r="230" fill="#f8f3e7" opacity=".5"/>
+  <path d="M80 600C180 470 330 440 470 470" fill="none" stroke="#f8f3e7" stroke-width="2" opacity=".7"/>
+
+  <rect y="652" width="800" height="148" fill="#adbba4"/>
+  <ellipse cx="400" cy="660" rx="260" ry="32" fill="#73856f" opacity=".2"/>
+
+  <g stroke="#2c4037" stroke-linecap="round">
+    <path d="M330 285c-20-28 16-42 0-72" fill="none" stroke="#f9f4e8" stroke-width="6" opacity=".7"/>
+    <path d="M395 270c-22-32 20-48 0-82" fill="none" stroke="#f9f4e8" stroke-width="6" opacity=".55"/>
+    <path d="M458 288c-18-26 14-40 0-66" fill="none" stroke="#f9f4e8" stroke-width="6" opacity=".65"/>
+  </g>
+
+  <path d="M514 385c102-6 112 145 4 150" fill="none" stroke="#2c4037" stroke-width="38"/>
+  <path d="M514 385c102-6 112 145 4 150" fill="none" stroke="#f6f0e4" stroke-width="16"/>
+
+  <path d="M270 320h250v230a80 80 0 0 1-80 80h-90a80 80 0 0 1-80-80Z" fill="#f6f0e4" stroke="#2c4037" stroke-width="5"/>
+  <g clip-path="url(#mug-clip)">
+    <path d="M258 365c80-48 178 34 286-28v-82H258Z" fill="url(#glaze)"/>
+    <path d="M258 418c88-50 176 30 286-34v54c-95 52-189-21-286 30Z" fill="#b6c2a8" opacity=".55"/>
+    <path d="M300 470c36 18 54-8 86 8 36 18 60-8 100 8" fill="none" stroke="#2c4037" stroke-width="3" opacity=".28"/>
+    <path d="M310 540c55 18 120 18 176-4" fill="none" stroke="#2c4037" stroke-width="2" opacity=".2"/>
+  </g>
+  <ellipse cx="395" cy="320" rx="125" ry="38" fill="#eee5d3" stroke="#2c4037" stroke-width="5"/>
+  <ellipse cx="395" cy="322" rx="103" ry="28" fill="#d8c2a0"/>
+  <ellipse cx="395" cy="322" rx="103" ry="28" fill="#8d6c4b" opacity=".3"/>
+  <path d="M293 322c30-20 174-20 204 0" fill="none" stroke="#fbf7ee" stroke-width="4" opacity=".55"/>
+
+  <text x="395" y="560" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="5" fill="#2c4037" opacity=".72">SAN YE</text>
+
+  <text x="56" y="742" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="4" fill="#2c4037" opacity=".65">NO. 01 / CERAMIC</text>
+  <rect width="800" height="800" filter="url(#grain)" opacity=".12" style="mix-blend-mode:multiply"/>
+</svg>
